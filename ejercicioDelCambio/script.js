@@ -98,7 +98,6 @@ function principal() {
     var caja = inicializar_efectivo(0, 0, 0, 1, 4, 8, 2, 5, 4, 10, 1, 1, 1, 1, 0);
     caja = calcular_total(caja, billetes_monedas);
 
-    
     var precio = document.getElementById("precio").value;
     var billetes = ["c500", "c200", "c100", "c50", "c20", "c10", "c5", "c2", "c1", "c0_5", "c0_2", "c0_1", "c0_05", "c0_02", "c0_01"];
     var valores = []
