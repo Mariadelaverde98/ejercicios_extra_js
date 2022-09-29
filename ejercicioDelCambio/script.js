@@ -111,7 +111,7 @@ function cobrar(precio, pago, caja, billetesMonedas) {
 
 function principal() {
     const billetes_monedas = [500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01];
-    var caja = inicializar_efectivo(0, 0, 0, 1, 4, 8, 2, 5, 4, 10, 1, 1, 1, 1, 0);
+    var caja = inicializar_efectivo(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
     caja = calcular_total(caja, billetes_monedas);
 
     var precio = document.getElementById("precio").value;
